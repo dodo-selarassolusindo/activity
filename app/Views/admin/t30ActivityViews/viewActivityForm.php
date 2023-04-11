@@ -16,7 +16,7 @@
 				<?=view('admin/t30ActivityViews/_activityFormItems') ?>
 			</div><!-- /.card-body -->
 			<div class="card-footer">
-				<?=anchor(route_to('activityList'), lang('Basic.global.Cancel'), ['class'=>'btn btn-secondary float-left']); ?>
+				<?=anchor(route_to('activityList2'), lang('Basic.global.Cancel'), ['class'=>'btn btn-secondary float-left']); ?>
 				<input type="submit" class="btn btn-primary float-right" name="save" value="<?= lang('Basic.global.Save') ?>">
 			</div><!-- /.card-footer -->
 			</form>

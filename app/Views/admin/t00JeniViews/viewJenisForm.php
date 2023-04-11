@@ -16,7 +16,7 @@
 				<?=view('admin/t00JeniViews/_jenisFormItems') ?>
 			</div><!-- /.card-body -->
 			<div class="card-footer">
-				<?=anchor(route_to('jenisList'), lang('Basic.global.Cancel'), ['class'=>'btn btn-secondary float-left']); ?>
+				<?=anchor(route_to('jenisList2'), lang('Basic.global.Cancel'), ['class'=>'btn btn-secondary float-left']); ?>
 				<input type="submit" class="btn btn-primary float-right" name="save" value="<?= lang('Basic.global.Save') ?>">
 			</div><!-- /.card-footer -->
 			</form>

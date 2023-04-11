@@ -245,15 +245,6 @@ class T30Activities extends \App\Controllers\GoBaseController {
     }
         
 
-	protected function getUserListItems() { 
-	$t02UserModel = model('App\Models\Admin\T02UserModel');
-			$onlyActiveOnes = true;
-			$data = $t02UserModel->getAllForMenu('id, nama','nama', $onlyActiveOnes );
-
-		return $data;
-	}
-
-
 	protected function getProjectListItems() { 
 	$t01ProjectModel = model('App\Models\Admin\T01ProjectModel');
 			$onlyActiveOnes = true;
@@ -267,6 +258,15 @@ class T30Activities extends \App\Controllers\GoBaseController {
 	$t00JeniModel = model('App\Models\Admin\T00JeniModel');
 			$onlyActiveOnes = true;
 			$data = $t00JeniModel->getAllForMenu('id, nama','nama', $onlyActiveOnes );
+
+		return $data;
+	}
+
+
+	protected function getUserListItems() { 
+	$t02UserModel = model('App\Models\Admin\T02UserModel');
+			$onlyActiveOnes = true;
+			$data = $t02UserModel->getAllForMenu('id, nama','nama', $onlyActiveOnes );
 
 		return $data;
 	}

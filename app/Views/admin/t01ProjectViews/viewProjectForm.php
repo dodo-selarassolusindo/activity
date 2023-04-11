@@ -16,7 +16,7 @@
 				<?=view('admin/t01ProjectViews/_projectFormItems') ?>
 			</div><!-- /.card-body -->
 			<div class="card-footer">
-				<?=anchor(route_to('projectList2'), lang('Basic.global.Cancel'), ['class'=>'btn btn-secondary float-left']); ?>
+				<?=anchor(route_to('projectList'), lang('Basic.global.Cancel'), ['class'=>'btn btn-secondary float-left']); ?>
 				<input type="submit" class="btn btn-primary float-right" name="save" value="<?= lang('Basic.global.Save') ?>">
 			</div><!-- /.card-footer -->
 			</form>

@@ -14,20 +14,20 @@
 					<p><?=lang('T00Jenis.jenis') ?></p>
 				</div>
 				<div class="icon">
-					<i class="far fa-square"></i>
+					<i class="far fa-question-circle"></i>
 				</div>
 				<?= anchor(route_to('jenisList'), lang('Basic.global.MoreInfo').'  <i class="fas fa-arrow-circle-right"></i>', ['class'=>'small-box-footer']); ?>
 
 			</div><!-- /.small-box -->
 
 
-			<div class="small-box bg-success">
+			<div class="small-box bg-warning">
 				<div class="inner">
 					<h3><?= $totalNrOfActivity; ?></h3>
 					<p><?=lang('T30Activities.activity') ?></p>
 				</div>
 				<div class="icon">
-					<i class="fas fa-chart-bar"></i>
+					<i class="fas fa-globe"></i>
 				</div>
 				<?= anchor(route_to('activityList'), lang('Basic.global.MoreInfo').'  <i class="fas fa-arrow-circle-right"></i>', ['class'=>'small-box-footer']); ?>
 
@@ -42,7 +42,7 @@
 					<p><?=lang('T01Projects.project') ?></p>
 				</div>
 				<div class="icon">
-					<i class="fas fa-globe"></i>
+					<i class="far fa-question-circle"></i>
 				</div>
 				<?= anchor(route_to('projectList'), lang('Basic.global.MoreInfo').'  <i class="fas fa-arrow-circle-right"></i>', ['class'=>'small-box-footer']); ?>
 
@@ -55,7 +55,7 @@
 					<p><?=lang('T31Activityds.detailActivity') ?></p>
 				</div>
 				<div class="icon">
-					<i class="fas fa-chart-bar"></i>
+					<i class="far fa-bookmark"></i>
 				</div>
 				<?= anchor(route_to('detailActivityList'), lang('Basic.global.MoreInfo').'  <i class="fas fa-arrow-circle-right"></i>', ['class'=>'small-box-footer']); ?>
 
